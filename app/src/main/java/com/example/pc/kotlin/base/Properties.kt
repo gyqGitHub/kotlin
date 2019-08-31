@@ -41,7 +41,7 @@ const val PI = 3.14
  * 延迟初始化属性与变量
  * 1.延迟初始化一定要带类型
  */
-lateinit var name: String
+lateinit var lateVar: String
 
 fun main(args: Array<String>) {
     //局部变量没有getter/setter
@@ -49,8 +49,8 @@ fun main(args: Array<String>) {
 
     println(className)
 
-    name = "lateInit"
-    println(name)
+    lateVar = "lateInit"
+    println(lateVar)
 
     day = "2020-02-02"
     println(day)
